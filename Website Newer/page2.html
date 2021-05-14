@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<head>
+  	<meta charset="utf-8">
+  	<title>DerivativeSolver</title>
+  	<link rel="stylesheet" href="main.css?v=1.0">
+	  
+	<div id="page-wrap">
+	  
+	 <div id="banner-div">
+	 <img src="banner.png" alt="DerivativeSolver Banner">
+	 </div>
+
+ 
+</head>
+
+<body>
+
+<br>
+	
+<center>
+
+    <h1>Enter an expression/equation:</h1>
+	
+	<!form enctype="multipart/form=data" method="post" action="derivativesolverprototype.py" this would normally link to the python script but i could not get it to work properly>
+	<form enctype="multipart/form=data" method="post" action="page2.html">
+			<input type="text" id="valueder" name "valueder" />
+			<br><br>
+            <input type="submit" value="Solve"/>	
+	</form>
+	
+	
+	<!This is an example of what it would have looked like if i got it to work properly for the equation 3(2x+1)^2>
+	
+	<br>
+	<p>d/dx[3(2x+2)^2]</p>
+	<br>
+	<p>= 3 * d/dx[(2x + 1)^2]</p>
+	<br>
+	<p>= 3 * 2 (2x + 1) * (d/dx [2x + 1]</p>
+	<br>
+	<p>= 6 (x + 1) (2 * d/dx[x] + d/dx[1])</p>
+	<br>
+	<p>= 6 (x + 1) (2 * 1 + 0)</p>
+	<br>
+	<p>= 12 (2x + 1)
+	<br>
+	<p>= 24x + 12
+
+ </center>
+
+ 
+</body>
+</div> <!--END page-wrap -->
+</html>
